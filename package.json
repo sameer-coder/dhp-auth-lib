@@ -1,6 +1,6 @@
 {
-  "name": "dhp-auth-lib",
-  "version": "0.0.1",
+  "name": "healthpass-auth-lib",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -11,8 +11,7 @@
     "lint": "./node_modules/.bin/eslint . --fix --ext .js,.ts --max-warnings 0",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  
   "dependencies": {
     "axios": "^0.21.1",
     "ibmcloud-appid": "^6.1.1",
@@ -22,7 +21,7 @@
     "passport": "^0.4.1",
     "retry-axios": "^2.4.0",
     "uuid": "^8.3.2",
-    "dhp-logging-lib": "git+ssh://git@github.com:digitalhealthpass/dhp-logging-lib.git"
+    "healthpass-logging-lib": "git+ssh://git@github.com:WH-HealthPass/healthpass-logging-lib.git"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
@@ -42,11 +41,6 @@
     "husky": "^4.2.5",    
     "mocha": "^7.2.0",
     "prettier": "1.19.1"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint"
-    }
   }
   
 }
