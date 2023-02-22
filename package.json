@@ -20,7 +20,7 @@
     "passport": "^0.4.1",
     "retry-axios": "^2.4.0",
     "uuid": "^8.3.2",
-    "dhp-logging-lib": "git+ssh://git@github.com:digitalhealthpass/dhp-logging-lib.git"
+    "dhp-logging-lib": "github:digitalhealthpass/dhp-logging-lib"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
